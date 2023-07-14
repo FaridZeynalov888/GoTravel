@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+body{
+    height: 7777px;
+}
+header{
+    width: 100%;
+    position: fixed;
+}
+.container{
+    max-width: 80;
+    margin: 0 auto;
+}
+header .container{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .container .logo{
+    margin-left: 80px;
+
+}
+header .container nav ul{
+    display: flex;
+    margin-right: 80px;
+}
+header .container nav ul li{
+    margin-left: 30px;
+    font-size: 19px;
+    
+}
+header .container nav ul li a{
+    color: #fff;
+}
+#opening{
+    height: 100vh;
+    background-image: url(../images/bck/2022_08_10-Hosmer-Lake-SUP-Aerial-Wyeth_Full-0006-scaled.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#opening h1{
+    color: #fff;
+    width: 800px;
+    font-size: 60px;
+    font-weight: 600px;
+    margin-bottom: 170px;
+    margin-top: 200px;
+}
+#opening .content{
+    /* height: 100vh; */
+    display: flex;
+    align-items: center; 
+    margin-left: 80px;
+
+}
+ h3{
+    color: #fff;
+    font-size: 20px;
+    margin-top: 235px;
+    margin-left: -796px;
+}
+button{
+    padding: 20px;
+    border: none;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 70px;
+    color: #1f4b51;
+    background-color: #d9ed82;
+    margin-top: 400px;
+    margin-left: -465px;
+}
+button i{
+    margin-left: 15px;
+}
+
+.general{
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    border: 5px solid #749490;
+}
+.general #n01{
+    margin-top: -150px;
+}
+.general #n02{
+    margin-top: -150px;
+}
+.general #n03{
+    margin-top: -150px;
+}
+.general h1{
+    margin-bottom: 10px;
+}
+.general p{
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
